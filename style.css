@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 10px;
+  overflow: hidden;
+}
+
+#timeLabel {
+  display: block;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#date {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  color: white;
+  margin: -5;
+}
+
+#time {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+  color: white;
+  margin: -5;
+}
+
+#mainContainer {
+  text-align: right;
+}
